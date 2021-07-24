@@ -4,6 +4,12 @@ pipeline{
   }
   agent any
   stages{
-    build()
+    stage('build'){
+      steps{
+        script{
+          build()
+        }
+      }
+    }
   }
 }
