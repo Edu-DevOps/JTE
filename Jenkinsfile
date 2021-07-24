@@ -4,12 +4,15 @@ pipeline{
   }
   agent any
   stages{
-    stage('build'){
+    script{
+      buidl)
+    }
+    /*stage('build'){
       steps{
         script{
           build()
         }
       }
-    }
+    }*/
   }
 }
