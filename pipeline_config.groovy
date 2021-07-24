@@ -1,3 +1,6 @@
 libraries{
-  maven
+  maven{
+    build()
+    unit_tests()
+  }
 }
