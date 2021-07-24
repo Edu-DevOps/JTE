@@ -1,7 +1,8 @@
 void call(){
   stage('my stage'){
     steps{
-        sh "echo 'building from groovy'"
+        echo "building from echo groovy"
+        //sh "echo 'building from groovy'"
      }
   }
 }
