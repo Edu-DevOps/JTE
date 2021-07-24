@@ -1,4 +1,4 @@
-jenkinsfile{
+pipeline{
   environment{
     MYVAR = "text from my variable"
   }
