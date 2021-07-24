@@ -1,3 +1,5 @@
 void call(){
-  println "building from groovy"
+  stage('my stage'){
+    println "building from groovy"
+  }
 }
