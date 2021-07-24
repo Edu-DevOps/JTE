@@ -1,2 +1,9 @@
-build()
-unit_tests()
+jenkinsfile{
+  environment{
+    MYVAR = "text from my variable"
+  }
+  agent any
+  stages{
+    build()
+  }
+}
