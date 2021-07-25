@@ -1,1 +1,1 @@
-build("message from param")
+build()
