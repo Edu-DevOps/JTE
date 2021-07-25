@@ -1,8 +1,7 @@
-void call(){
+void call(String message){
   stage('my stage'){
     node{
-      echo "building from echo groovy"
-      println "building from groovy"
+      echo "building from echo groovy with my ${message}"
     }
   }
 }
