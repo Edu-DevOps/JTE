@@ -3,10 +3,6 @@ libraries{
   ansible{
     deploy_to
   }
-  //maven{
-  //  message = "My config message"
-  //  build
-  //}
 }
 
 application_environments{
