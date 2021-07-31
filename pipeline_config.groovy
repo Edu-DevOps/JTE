@@ -13,3 +13,10 @@ application_environments{
     eks_cluster = "eks_pre"
   }
 }
+
+steps{
+  unit_test{
+        stage = "Unit Test"
+        command = "echo 'TESTING'"
+    }
+}
