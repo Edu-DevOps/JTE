@@ -18,6 +18,13 @@ steps{
     unit_test{
         stage = "Unit Test"
         image = "maven"
-        command = "echo 'TESTING'"
+        command = "mvn clean verify"
+        stash{
+            name = "test-results"
+            includes = "./target"
+            excludes = "./src"
+            useDefaultExcludes = false
+            allowEmpty = true
+        }
     }
 }
