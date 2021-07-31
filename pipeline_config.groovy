@@ -15,8 +15,9 @@ application_environments{
 }
 
 steps{
-  unit_test{
+    unit_test{
         stage = "Unit Test"
+        image = "maven"
         command = "echo 'TESTING'"
     }
 }
