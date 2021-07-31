@@ -1,4 +1,5 @@
 libraries{
+  merge = true
   ansible{
     deploy_to
   }
